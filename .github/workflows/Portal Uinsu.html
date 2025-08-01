@@ -1,0 +1,579 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Kartu Hasil Studi - UINSU
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   /* Custom scrollbar for the table container */
+    .scrollbar-thin::-webkit-scrollbar {
+      height: 6px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+      background-color: #cbd5e1;
+      border-radius: 10px;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-200 flex justify-center py-8">
+  <div class="max-w-[900px] w-full rounded-md shadow-lg bg-gradient-to-b from-[#003366] to-[#002244] flex flex-col">
+   <!-- Header -->
+   <header class="flex items-center gap-2 bg-gray-800 rounded-t-md px-3 py-1.5 select-none">
+    <img alt="Logo Universitas Islam Negeri Sumatera Utara" class="h-6 w-6 object-contain" height="24" src="https://storage.googleapis.com/a1aa/image/59ebdf1c-cb1c-44b1-8ef8-ec3c87601f52.jpg" width="24"/>
+    <h1 class="text-gray-300 text-[13px] font-sans font-semibold whitespace-nowrap">
+     Portal Akademik | Universitas Islam Negeri Sumatera Utara
+    </h1>
+   </header>
+   <main class="flex bg-white rounded-b-md">
+    <!-- Main content left -->
+    <section class="flex-1 p-4 text-[13px] font-sans text-gray-900">
+     <h2 class="font-bold text-blue-800 text-[15px] mb-1">
+      Kartu Hasil Studi
+     </h2>
+     <p class="mb-3">
+      <span class="font-bold text-blue-800">
+       Keterangan :
+      </span>
+      <br/>
+      Kartu Hasil Studi merupakan fasilitas yang dapat digunakan untuk melihat hasil studi mahasiswa
+          persemester. Selain dapat dilihat secara online, hasil studi ini juga dapat dicetak.
+     </p>
+     <form aria-label="Semester selection" class="mb-3 border border-blue-200 rounded-sm bg-blue-50 text-[12px] text-blue-600 flex items-center gap-2 px-2 py-1 max-w-[400px]">
+      <label class="text-[13px] font-semibold" for="semester">
+       Semester
+      </label>
+      <select aria-label="Select semester" class="bg-blue-100 text-blue-600 rounded-full px-2 py-[2px] text-[12px] font-semibold cursor-pointer" id="semester" name="semester">
+       <option>
+        Genap 2024/2025
+       </option>
+      </select>
+      <button class="border border-blue-400 rounded px-2 py-[2px] text-[12px] text-blue-700 hover:bg-blue-100" type="button">
+       Lihat
+      </button>
+     </form>
+     <table aria-label="Student information" class="w-full border border-gray-300 text-[12px] text-gray-700 mb-3">
+      <tbody>
+       <tr class="border-b border-gray-300">
+        <td class="border-r border-gray-300 font-semibold px-2 py-1 w-[110px]">
+         Nama
+        </td>
+        <td class="px-2 py-1">
+         MUHAMMAD HABIB ADITYA
+        </td>
+       </tr>
+       <tr class="border-b border-gray-300">
+        <td class="border-r border-gray-300 font-semibold px-2 py-1">
+         NIM
+        </td>
+        <td class="px-2 py-1">
+         0701243213
+        </td>
+       </tr>
+       <tr class="border-b border-gray-300">
+        <td class="border-r border-gray-300 font-semibold px-2 py-1">
+         Program Studi
+        </td>
+        <td class="px-2 py-1">
+         ILMU KOMPUTER
+        </td>
+       </tr>
+       <tr>
+        <td class="border-r border-gray-300 font-semibold px-2 py-1">
+         Semester
+        </td>
+        <td class="px-2 py-1">
+         Genap 2024/2025
+        </td>
+       </tr>
+      </tbody>
+     </table>
+     <div class="overflow-x-auto scrollbar-thin">
+      <table aria-label="Course grades" class="w-full border border-gray-300 text-[12px] text-gray-700 border-collapse">
+       <thead class="bg-blue-100 text-[11px] font-semibold text-gray-700">
+        <tr>
+         <th class="border border-gray-300 px-1 py-1 w-[25px] text-center">
+          NO
+         </th>
+         <th class="border border-gray-300 px-1 py-1 w-[80px] text-center">
+          KODE
+         </th>
+         <th class="border border-gray-300 px-1 py-1 text-left">
+          MATA KULIAH
+         </th>
+         <th class="border border-gray-300 px-1 py-1 w-[110px] text-center">
+          KELAS
+         </th>
+         <th class="border border-gray-300 px-1 py-1 w-[30px] text-center">
+          W/P
+         </th>
+         <th class="border border-gray-300 px-1 py-1 w-[30px] text-center">
+          SKS
+         </th>
+         <th class="border border-gray-300 px-1 py-1 w-[40px] text-center">
+          NILAI
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr class="even:bg-blue-50">
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          1
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701001
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Kewarganegaraan
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701001-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          A
+         </td>
+        </tr>
+        <tr>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701004
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Sejarah Peradaban Islam
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701004-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          B
+         </td>
+        </tr>
+        <tr class="even:bg-blue-50">
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          3
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701005
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Fikih
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701005-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          A
+         </td>
+        </tr>
+        <tr>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          4
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701006
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Etika Akademik
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701006-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          A
+         </td>
+        </tr>
+        <tr class="even:bg-blue-50">
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          5
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701012
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Filsafat Ilmu
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701012-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          B
+         </td>
+        </tr>
+        <tr>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701201
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Fisika
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701201-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          B
+         </td>
+        </tr>
+        <tr class="even:bg-blue-50">
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          7
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701202
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Kalkulus Lanjut
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701202-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          3
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          C
+         </td>
+        </tr>
+        <tr>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          8
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701204
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Algoritma dan Pemrograman-2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701204-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          B
+         </td>
+        </tr>
+        <tr class="even:bg-blue-50">
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          9
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701205
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Prak. Algoritma dan Pemrograman-2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701205-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          1
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          B
+         </td>
+        </tr>
+        <tr>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          10
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701003
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5">
+          Matematika Diskrit
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          010701003-6/IK-6
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          W
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          2
+         </td>
+         <td class="border border-gray-300 px-1 py-0.5 text-center">
+          C
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class="mt-3 text-[13px] font-sans text-gray-900 max-w-[400px]">
+      <p class="mb-1">
+       Jumlah SKS diambil
+       <span class="inline-block w-[20px]">
+       </span>
+       :
+       <span class="ml-1">
+        20
+       </span>
+      </p>
+      <p class="mb-1">
+       Jumlah mata kuliah diambil
+       <span class="inline-block w-[20px]">
+       </span>
+       :
+       <span class="ml-1">
+        10
+       </span>
+      </p>
+      <p>
+       IP Semester
+       <span class="inline-block w-[20px]">
+       </span>
+       :
+       <span class="ml-1">
+        3.15
+       </span>
+      </p>
+     </div>
+     <button class="mt-4 px-3 py-1 text-[12px] text-blue-700 border border-blue-400 rounded hover:bg-blue-100" type="button">
+      Cetak
+     </button>
+    </section>
+    <!-- Sidebar right -->
+    <aside class="w-[220px] bg-[#fef9e7] border-l border-gray-300 flex flex-col text-[12px] text-gray-700 select-none">
+     <div class="border-b border-gray-300 p-2 text-[11px] font-semibold text-gray-800">
+      Informasi Pengguna
+     </div>
+     <div class="p-3 text-center text-[11px] font-semibold text-gray-600 leading-tight">
+      MUHAMMAD HABIB ADITYA
+      <br/>
+      <span class="text-[10px] font-normal">
+       0701243213
+      </span>
+      <br/>
+      <span class="text-[10px] font-normal">
+       ILMU KOMPUTER
+      </span>
+      <br/>
+      <span class="text-[10px] text-yellow-900 cursor-pointer">
+       [ Logout ]
+      </span>
+     </div>
+     <nav class="flex-1 overflow-y-auto px-3 pt-1">
+      <div class="mb-3 bg-gradient-to-r from-yellow-200 to-yellow-100 rounded px-2 py-1 font-semibold text-yellow-800 text-[12px]">
+       Academics
+      </div>
+      <ul class="space-y-1 text-[11px] font-semibold text-yellow-900">
+       <li>
+        <a class="block hover:underline" href="#">
+         Halaman Depan
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Panduan
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Biodata
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Data Orang Tua
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Data SMA
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Informasi Matakuliah Ditawarkan
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Kartu Rencana Studi
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Cetak Kartu Ujian
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Kartu Hasil Studi
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Transkrip Nilai
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Tagihan Pembayaran
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Pengajuan Wisuda
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Pengajuan Tugas Akhir
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Beasiswa
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Informasi Akademik
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Pengajuan Cuti
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Workshop
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Ubah Password
+        </a>
+       </li>
+       <li class="text-yellow-400 cursor-default">
+        Pesan
+       </li>
+       <li class="text-yellow-400 cursor-default">
+        Forum Diskusi
+       </li>
+      </ul>
+      <div class="mt-6 mb-3 bg-gradient-to-r from-yellow-200 to-yellow-100 rounded px-2 py-1 font-semibold text-yellow-800 text-[12px]">
+       Virtual Class
+      </div>
+      <ul class="space-y-1 text-[11px] font-semibold text-yellow-900">
+       <li>
+        <a class="block hover:underline" href="#">
+         Materi Kuliah
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Pengumuman
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Tugas Kuliah
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Diskusi Online
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Agenda Kelas
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Agenda Pribadi
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         File Sharing
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Referensi
+        </a>
+       </li>
+       <li>
+        <a class="block hover:underline" href="#">
+         Panduan
+        </a>
+       </li>
+      </ul>
+      <div class="mt-6 border-t border-gray-300 pt-2 text-[11px] font-semibold text-yellow-900">
+       Status Service
+       <br/>
+       <span class="text-green-700 flex items-center gap-1">
+        <i class="fas fa-arrow-right">
+        </i>
+        SIA
+       </span>
+      </div>
+     </nav>
+    </aside>
+   </main>
+   <footer class="bg-gray-800 text-gray-300 text-[11px] text-center py-2 rounded-b-md select-none">
+    Portal Akademik Universitas Islam Negeri Sumatera Utara
+    <br/>
+    © 2015. All Right Reserved
+   </footer>
+  </div>
+ </body>
+</html>
